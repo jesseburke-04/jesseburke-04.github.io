@@ -49,8 +49,8 @@ nav .right a {
 }
 
 nav .right a:last-child {
-    color: var(--background-color);
-    background-color: #D71AE6;
+    color: #D71AE6;
+    background-color: var(--background-color);
     padding: 8px 15px;
     border-radius: 5px;
 }
