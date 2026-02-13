@@ -48,7 +48,12 @@ nav .right a {
     margin: 0 10px;
 }
 
-
+nav .right a:last-child {
+    color: #D71AE6;
+    background-color: var(--background-color);
+    padding: 8px 15px;
+    border-radius: 5px;
+}
 
 
 
