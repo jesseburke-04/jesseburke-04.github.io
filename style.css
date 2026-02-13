@@ -15,7 +15,7 @@ html{
 }
 
 body {
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     background-color: var(--background-color);
 }
 
@@ -36,6 +36,7 @@ nav {
 }
 
 nav .left a {
+    font-family:'Press Start 2P', serif;
     color: var(--background-color);
     font-size: 22px;
     font-weight: 600;
