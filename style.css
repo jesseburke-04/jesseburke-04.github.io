@@ -32,17 +32,18 @@ nav {
 
     padding: 0px 50px;
     height: 80px;
+    background-color: #D71AE6;
 }
 
 nav .left a {
-    color: var(--text-color);
+    color: var(--background-color);
     font-size: 22px;
     font-weight: 600;
 }
 
 nav .right a {
     font-family: sans-serif;
-    color: var(--text-color);
+    color: var(--background-color);
     font-size: 18px;
     margin: 0 10px;
 }
