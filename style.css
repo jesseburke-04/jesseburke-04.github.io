@@ -56,7 +56,13 @@ nav .right a:last-child {
     border-radius: 5px;
 }
 
-
+/* Section 1: About Me */
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    ,margin: 50px;
+}
 
 
 
