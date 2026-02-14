@@ -57,7 +57,7 @@ nav .right a:last-child {
 }
 
 /* Section 1: About Me */
-.about-me {
+.about-me-section {
     display: flex;
     justify-content: space-between;
     padding: 0px 50px;
