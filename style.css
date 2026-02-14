@@ -64,6 +64,13 @@ nav .right a:last-child {
     margin: 50px;
 }
 
+.picture-of-me img {
+    width: 250px;      
+    height: auto;      
+    border-radius: 10px; 
+}
+
+
 
 
 
