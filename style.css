@@ -35,6 +35,11 @@ nav {
     background-color: #D71AE6;
 }
 
+nav .left i {
+    color: var(--background-color);
+    font-size: 28px;
+}
+
 nav .left a {
     font-family:'Press Start 2P', serif;
     color: var(--background-color);
