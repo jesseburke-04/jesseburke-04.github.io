@@ -99,7 +99,9 @@ nav .right a:last-child {
 }
 
 .about-me-section .picture-of-me {
-    flex: 2;    
+    flex: 2;  
+    display: flex;
+    justify-content: center;  
 }
 
 .about-me-section .picture-of-me img {
