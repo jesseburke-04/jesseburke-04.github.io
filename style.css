@@ -144,7 +144,6 @@ nav .right a:last-child {
 }
 .current-projects-section .picture-of-github img {
     width: 200px;
-    height: 175px;
-    color: var(--link-color);
+    height: 170px;
 }
 
