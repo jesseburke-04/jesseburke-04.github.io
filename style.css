@@ -127,4 +127,9 @@ nav .right a:last-child {
     flex-wrap: wrap;
 }
 
+.skills-section ul {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
 
