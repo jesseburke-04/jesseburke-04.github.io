@@ -107,11 +107,12 @@ nav .right a:last-child {
     width: 220px;
     height: 250px;
    border-radius: 10px;
+   margin-left: 20px;
 }
 
 /* Section 2: Skills */
 .skills-section {
-    padding: 0 50px 0px 50px;
+    padding: 0 50px;
     margin: 30px 50px;
 }
 
