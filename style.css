@@ -121,12 +121,12 @@ nav .right a:last-child {
 }
 
 .skills-section .text {
-    margin-top: 5px;
-    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .skills-section ul {
     margin-top: 5px;
+    margin-left: 20px;
 }
 
 /* Section 3: Current Projects */
