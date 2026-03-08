@@ -112,7 +112,7 @@ nav .right a:last-child {
 /* Section 2: Skills */
 .skills-section {
     padding: 0 50px;
-    margin-top: 30px;
+    margin-top: 30px 50px;
 }
 
 .skills-section h2 {
