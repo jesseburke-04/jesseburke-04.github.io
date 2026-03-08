@@ -121,9 +121,8 @@ nav .right a:last-child {
 }
 
 .skills-section .text {
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 .skills-section ul {
