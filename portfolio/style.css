@@ -39,7 +39,7 @@ nav .left i {
 
 nav .left {
     position: absolute;
-    top: 25px;
+    top: 30px;
     left: 50px;
 }
 
@@ -52,7 +52,7 @@ nav .left a {
 
 nav .right {
     position: absolute;
-    top: 25px;
+    top: 30px;
     right: 50px;
 }
 
@@ -106,16 +106,15 @@ nav .right a:last-child {
 }
 
 .about-me-section .picture-of-me {
-    flex: 2;  
-    display: flex;
-    justify-content: center;  
+    position: absolute;
+    top: 0;
+    right: 50px;
 }
 
 .about-me-section .picture-of-me img {
     width: 220px;
     height: 250px;
    border-radius: 10px;
-   margin-left: 15px;
 }
 
 /* Section 2: Skills */
