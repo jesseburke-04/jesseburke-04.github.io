@@ -145,7 +145,6 @@ nav .right a:last-child {
 }
 
 /* Footer */
-/* Footer */
 footer {
     text-align: center;
     padding: 30px 50px;
@@ -154,5 +153,4 @@ footer {
     color: var(--background-color);
     font-family: 'Press Start 2P', serif;
     font-size: 12px;
-    line-height: 2;
 }
