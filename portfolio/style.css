@@ -39,7 +39,7 @@ nav .left i {
 
 nav .left {
     position: absolute;
-    top: 50%;
+    top: 25px;
     left: 50px;
 }
 
@@ -52,7 +52,7 @@ nav .left a {
 
 nav .right {
     position: absolute;
-    top: 50%;
+    top: 25px;
     right: 50px;
 }
 
@@ -72,16 +72,14 @@ nav .right a:last-child {
 
 /* Section 1: About Me */
 .about-me-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
     padding: 0px 50px;
     margin: 50px;
-    gap: 40px;
 }
 
 .about-me-section .text {
-    flex: 5;
+    position: relative;
+    width: 65%;
 }
 
 .about-me-section .text h2 {
