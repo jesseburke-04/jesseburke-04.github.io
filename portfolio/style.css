@@ -26,9 +26,7 @@ a {
 
 /* NAVBAR Section*/
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
     padding: 0px 50px;
     height: 80px;
     background-color: #D71AE6;
@@ -39,11 +37,24 @@ nav .left i {
     font-size: 28px;
 }
 
+nav .left {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+
 nav .left a {
     font-family:'Press Start 2P', serif;
     color: var(--background-color);
     font-size: 22px;
     font-weight: 600;
+}
+
+nav .right {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
 }
 
 nav .right a {
