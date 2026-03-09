@@ -1,35 +1,43 @@
+/*This section is to use to store my global color variables. */
 :root {
     --text-color: #1a1c20;
     --link-color: #D71AE6;
     --background-color: #eeeff1;
 }
 
+/*A universal selector that targets every element. I'm also setting 
+the default margins and padding to zero and box-sizing: border-box 
+makes sure the padding and border is included in the elements width. */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*This property is used so that my anchor links glide smoother. */
 html{
     scroll-behavior: smooth;
 }
 
+/*Designing how the default font and background color should look. */
 body {
     font-family: 'Times New Roman', sans-serif;
     background-color: var(--background-color);
 }
 
+/*A global style for the color of my links and removing the underline. */
 a {
     color: var(--link-color);
     text-decoration: none;
 }
 
 /* NAVBAR Section*/
+/*Positioning the top of my webpage and designing the size and color. */
 nav {
     position: relative;
     padding: 0px 50px;
     height: 80px;
-    background-color: #D71AE6;
+    background-color: var(--link-color);
 }
 
 nav .left i {
@@ -64,13 +72,15 @@ nav .right a {
 }
 
 nav .right a:last-child {
-    color: #D71AE6;
+    color: var(--link-color);
     background-color: var(--background-color);
     padding: 8px 15px;
     border-radius: 5px;
 }
 
 /* Section 1: About Me */
+/*Positioning section 1 and adding a picture of me and my boyfriend
+to the right side of my text. */
 .about-me-section {
     position: relative;
     padding: 0px 50px;
@@ -90,6 +100,8 @@ nav .right a:last-child {
     margin-top: 25px;
 }
 
+/*Added styling so that when the links are hovered over
+they change colors. */
 .about-me-section .text .links a {
     display: inline-block;
     padding: 5px 10px;
@@ -105,6 +117,8 @@ nav .right a:last-child {
     border: 2px solid var(--text-color);
 }
 
+/*Since the photo has two people in it, I add a hovering style
+that lets the user know I'm on the right side. */
 .about-me-section .picture-of-me {
     position: absolute;
     top: 0;
@@ -118,6 +132,7 @@ nav .right a:last-child {
 }
 
 /* Section 2: Skills */
+/*Another section, with more stylying. */
 .skills-section {
     position: relative;
     padding: 0 50px;
@@ -138,7 +153,8 @@ nav .right a:last-child {
 }
 
 /* Section 3: Current Projects */
-
+/*The last section of my portfolio, which mirrors the same layout as
+section 1, except the GitHub image is in between section 2 and 3. */
 .current-projects-section {
     position: relative;
     padding: 0px 50px;
@@ -167,13 +183,27 @@ nav .right a:last-child {
 }
 
 /* Footer */
+/*Add a final goodbye and gratitude section. Staying consistent with
+the style used throughout my portfolio. */
 footer {
     text-align: center;
     padding: 30px 50px;
     margin-top: 50px;
-    background-color: #D71AE6;
+    background-color: var(--link-color);
     color: var(--background-color);
     font-family: 'Press Start 2P', serif;
     font-size: 12px;
     line-height: 2;
 }
+
+/*Phase One Comments: This assignment was pretty hard to do with the minimal experience
+I have with coding, however, I believe this allowed me to learn so much about the complexities
+of building a webpage. I used almost all of the additional resources provided in the modules
+as well as multiple hours of Youtube tutorials. The HTML code was pretty straight forward after learning 
+about what it was and how it was used. The CSS style sheet was by far the hardest. The positioning 
+of text, links, and images was so hard to understand. Even more when the images wouldn't show up 
+or the links wouldn't respond. As of now, I enjoy how my portfolio looks. Nevertheless, I still have
+a long way to go for phase 2. Functionality and accessibility are the two main things that I want
+to change for Project Phase 2 because when I re-size the width of my browser all the texts and images
+become a complete mess, which is terrible for mobile users. I also want to add a button where it will 
+bring the user to a form that shows the reason for contacting me and the delivery of that message.  */
