@@ -108,7 +108,7 @@ nav .right a:last-child {
 .about-me-section .picture-of-me {
     position: absolute;
     top: 0;
-    right: 87px;
+    right: 86px;
 }
 
 .about-me-section .picture-of-me img {
@@ -119,6 +119,7 @@ nav .right a:last-child {
 
 /* Section 2: Skills */
 .skills-section {
+    position: relative;
     padding: 0 50px;
     margin: 30px 50px;
 }
@@ -139,16 +140,14 @@ nav .right a:last-child {
 /* Section 3: Current Projects */
 
 .current-projects-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
     padding: 0px 50px;
     margin: 50px;
-    gap: 40px;
 }
 
 .current-projects-section .text {
-    flex: 5;
+    position: relative;
+    width: 65%;
 }
 
 .current-projects-section .text h2 {
@@ -156,9 +155,9 @@ nav .right a:last-child {
 }
 
 .current-projects-section .picture-of-github {
-    flex: 2;
-    display: flex;
-    justify-content: left;
+    position: absolute;
+    top: 0;
+    right: 86px;
 }
 .current-projects-section .picture-of-github img {
     width: 200px;
