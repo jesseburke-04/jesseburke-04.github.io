@@ -156,8 +156,8 @@ nav .right a:last-child {
 
 .current-projects-section .picture-of-github {
     position: absolute;
-    top: 0;
-    right: 86px;
+    top: 50px;
+    right: 95px;
 }
 .current-projects-section .picture-of-github img {
     width: 200px;
