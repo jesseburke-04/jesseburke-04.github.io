@@ -156,6 +156,8 @@ nav .right a:last-child {
 .current-projects-section .picture-of-github img {
     width: 200px;
     height: 170px;
+    margin-left: 15px;
+    margin-bottom: 35px;
 }
 
 /* Footer */
