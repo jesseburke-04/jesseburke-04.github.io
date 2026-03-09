@@ -132,10 +132,24 @@ nav .right a:last-child {
 /* Section 3: Current Projects */
 
 .current-projects-section {
-    padding: 0 50px;
-    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    margin: 50px;
+    gap: 40px;
 }
+
+.current-projects-section .text {
+    flex: 5;
+}
+
+.current-projects-section .text h2 {
+    font-size: 36px;
+}
+
 .current-projects-section .picture-of-github {
+    flex: 2;
     display: flex;
     justify-content: left;
 }
