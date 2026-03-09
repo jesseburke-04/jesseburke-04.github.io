@@ -108,14 +108,13 @@ nav .right a:last-child {
 .about-me-section .picture-of-me {
     position: absolute;
     top: 0;
-    right: 50px;
+    right: 45px;
 }
 
 .about-me-section .picture-of-me img {
     width: 220px;
     height: 250px;
    border-radius: 10px;
-   margin-left: 40px;
 }
 
 /* Section 2: Skills */
