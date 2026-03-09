@@ -144,3 +144,15 @@ nav .right a:last-child {
     height: 170px;
 }
 
+/* Footer */
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 50px;
+    margin-top: 50px;
+    background-color: #D71AE6;
+    color: var(--background-color);
+    font-family: 'Press Start 2P', serif;
+    font-size: 12px;
+    line-height: 2;
+}
