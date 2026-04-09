@@ -88,7 +88,7 @@ to the right side of my text. */
     align-items: flex-start; 
     gap: 40px;
     padding: 0px 50px;
-    margin: 80px 50px 50px 50px;
+    margin: 50px;
 }
 
 .about-me-section .text {
@@ -97,6 +97,10 @@ to the right side of my text. */
 
 .about-me-section .text h2 {
     font-size: 36px;
+}
+
+.about-me-section .text p {
+    margin-top: 20px;
 }
 
 .about-me-section .text .links {
@@ -173,6 +177,10 @@ section 1, except the GitHub image is in between section 2 and 3. */
     width: 200px;
     height: 170px;
     display: block;
+}
+
+.current-projects-section .picture-of-github {
+    margin-top: -30px;
 }
 
 /* Footer */
