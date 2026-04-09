@@ -88,7 +88,7 @@ to the right side of my text. */
     align-items: flex-start; 
     gap: 40px;
     padding: 0px 50px;
-    margin: 50px;
+    margin: 80px 50px 50px 50px;
 }
 
 .about-me-section .text {
@@ -169,11 +169,6 @@ section 1, except the GitHub image is in between section 2 and 3. */
     font-size: 36px;
 }
 
-.current-projects-section .picture-of-github {
-    position: absolute;
-    top: -100px;
-    right: 86px;
-}
 .current-projects-section .picture-of-github img {
     width: 200px;
     height: 170px;
