@@ -183,6 +183,80 @@ section 1, except the GitHub image is in between section 2 and 3. */
     margin-top: -100px;
 }
 
+/* Section 4: JavaScript Features */
+.javascript-features-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 0 50px;
+    margin: 50px;
+}
+
+/* Flexbox inside each box */
+.javascript-features {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    border: 2px solid var(--link-color);
+    border-radius: 15px;
+}
+
+.javascript-features h3 {
+    font-size: 22px;
+    color: var(--text-color);
+}
+
+/* Box 1: Digital Takeover button */
+#digital-takeover-btn {
+    padding: 10px 20px;
+    background-color: var(--link-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+#digital-takeover-btn:hover {
+    opacity: 0.8;
+}
+
+/* Box 2: Contact Form */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#contact-form label {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+#contact-form input {
+    padding: 10px 15px;
+    border: 2px solid var(--link-color);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    outline: none;
+    transition: 0.3s;
+}
+
+#contact-form input:focus {
+    border-color: var(--text-color);
+}
+
+#liveOutput {
+    font-size: 14px;
+    color: var(--link-color);
+    min-height: 20px;
+}
+
 /* Footer */
 /*Add a final goodbye and gratitude section. Staying consistent with
 the style used throughout my portfolio. */
