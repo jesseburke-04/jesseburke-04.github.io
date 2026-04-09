@@ -21,7 +21,7 @@ html{
 
 /*Designing how the default font and background color should look. */
 body {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Times New Roman', serif;
     background-color: var(--background-color);
 }
 
@@ -34,21 +34,18 @@ a {
 /* NAVBAR Section*/
 /*Positioning the top of my webpage and designing the size and color. */
 nav {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0px 50px;
     height: 80px;
     background-color: var(--link-color);
 }
 
-nav .left i {
-    color: var(--background-color);
-    font-size: 28px;
-}
-
 nav .left {
-    position: absolute;
-    top: 30px;
-    left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 nav .left a {
@@ -58,17 +55,22 @@ nav .left a {
     font-weight: 600;
 }
 
+nav .left i {
+    color: var(--background-color);
+    font-size: 28px;
+}
+
 nav .right {
-    position: absolute;
-    top: 30px;
-    right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 nav .right a {
     font-family: sans-serif;
     color: var(--background-color);
     font-size: 18px;
-    margin: 0 10px;
+    padding: 4px 8px;
 }
 
 nav .right a:last-child {
@@ -82,14 +84,15 @@ nav .right a:last-child {
 /*Positioning section 1 and adding a picture of me and my boyfriend
 to the right side of my text. */
 .about-me-section {
-    position: relative;
+    display: flex;
+    align-items: flex-start; 
+    gap: 40px;
     padding: 0px 50px;
     margin: 50px;
 }
 
 .about-me-section .text {
-    position: relative;
-    width: 65%;
+    flex: 1;
 }
 
 .about-me-section .text h2 {
@@ -119,16 +122,11 @@ they change colors. */
 
 /*Since the photo has two people in it, I add a hovering style
 that lets the user know I'm on the right side. */
-.about-me-section .picture-of-me {
-    position: absolute;
-    top: 0;
-    right: 86px;
-}
-
 .about-me-section .picture-of-me img {
     width: 220px;
     height: 250px;
-   border-radius: 10px;
+    border-radius: 10px;
+    display: block;
 }
 
 /* Section 2: Skills */
@@ -156,14 +154,15 @@ that lets the user know I'm on the right side. */
 /*The last section of my portfolio, which mirrors the same layout as
 section 1, except the GitHub image is in between section 2 and 3. */
 .current-projects-section {
-    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
     padding: 0px 50px;
     margin: 50px;
 }
 
 .current-projects-section .text {
-    position: relative;
-    width: 65%;
+    flex: 1;
 }
 
 .current-projects-section .text h2 {
@@ -178,8 +177,7 @@ section 1, except the GitHub image is in between section 2 and 3. */
 .current-projects-section .picture-of-github img {
     width: 200px;
     height: 170px;
-    margin-left: 15px;
-    margin-bottom: 35px;
+    display: block;
 }
 
 /* Footer */
@@ -196,14 +194,4 @@ footer {
     line-height: 2;
 }
 
-/*Phase One Comments: This assignment was pretty hard to do with the minimal experience
-I have with coding, however, I believe this allowed me to learn so much about the complexities
-of building a webpage. I used almost all of the additional resources provided in the modules
-as well as multiple hours of Youtube tutorials. The HTML code was pretty straight forward after learning 
-about what it was and how it was used. The CSS style sheet was by far the hardest. The positioning 
-of text, links, and images was so hard to understand. Even more when the images wouldn't show up 
-or the links wouldn't respond. As of now, I enjoy how my portfolio looks. Nevertheless, I still have
-a long way to go for phase 2. Functionality and accessibility are the two main things that I want
-to change for Project Phase 2 because when I re-size the width of my browser all the texts and images
-become a complete mess, which is terrible for mobile users. I also want to add a button where it will 
-bring the user to a form that shows the reason for contacting me and the delivery of that message.  */
+/*Phase Two Reflection: .  */
