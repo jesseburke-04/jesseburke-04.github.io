@@ -14,7 +14,7 @@ document.querySelector(".contact-form").addEventListener("submit", function(even
     // make sure the page doesn't refresh
     event.preventDefault();
     // use a variable to store users input
-    let name = document.querySelector("#name").value;
+    let name = document.querySelector(".name").value;
     // change the text and call the users input
     document.querySelector(".liveOutput").textContent = "Welcome, " + name + "!";
 });
