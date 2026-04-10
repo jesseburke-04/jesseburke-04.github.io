@@ -208,6 +208,7 @@ section 1, except the GitHub image is in between section 2 and 3. */
 
 .digital-takeover-box h3 {
     text-align: center;
+    font-family:'Press Start 2P', serif;
     margin-top: 20px; /* add this */
 }
 
@@ -217,7 +218,6 @@ section 1, except the GitHub image is in between section 2 and 3. */
 
 .javascript-features h3 {
     font-size: 30px;
-    font-family:'Press Start 2P', serif;
     color: var(--text-color);
 }
 
