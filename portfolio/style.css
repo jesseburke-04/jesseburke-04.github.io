@@ -214,12 +214,12 @@ section 1, except the GitHub image is in between section 2 and 3. */
 
 /* Box 1: Digital Takeover button */
 .digital-takeover-btn {
-    padding: 10px 20px;
+    padding: 30px 50px;
     background-color: var(--link-color);
     color: var(--background-color);
     border: none;
     border-radius: 8px;
-    font-size: 30px;
+    font-size: 60px;
     cursor: pointer;
     transition: 0.3s;
     width: fit-content;
