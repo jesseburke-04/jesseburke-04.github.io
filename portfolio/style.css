@@ -211,6 +211,10 @@ section 1, except the GitHub image is in between section 2 and 3. */
     margin-top: 20px; /* add this */
 }
 
+.contact-form-box h3 {
+    font-family: 'Times New Roman', serif;
+}
+
 .javascript-features h3 {
     font-size: 30px;
     font-family:'Press Start 2P', serif;
