@@ -103,13 +103,21 @@
 
         <!--Box 2: Contact Form-->
         <div class="javascript-features contact-form-box">
-                <h2>Contact Form</h2>
+                <h3>Contact Form</h3>
                 <form class="contact-form">
                         <label for="name">Name:</label>
+                        <div class="name-box">
                         <input type="text" class="name" name="name" required>
-                        <p class="liveOutput"></p>
+                        <button type="submit" class="submit-btn name-btn">Submit</button>
+                        </div>
+                        <p class="name-output"></p>
+                        
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        <div class="email-box">
+                        <input type="email" class="email" name="email" required>
+                        <button type="submit" class="submit-btn email-btn">Submit</button>
+                        </div>
+                        <p class="email-output"></p>
                 </form>
         </div>
 </section>
