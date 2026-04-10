@@ -136,7 +136,6 @@ that lets the user know I'm on the right side. */
 /* Section 2: Skills */
 /*Another section, with more stylying. */
 .skills-section {
-    position: relative;
     padding: 0 50px;
     margin: 30px 50px;
 }
