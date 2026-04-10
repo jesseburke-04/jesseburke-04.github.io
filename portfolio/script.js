@@ -20,6 +20,8 @@ document.querySelector(".name-btn").addEventListener("click", function(event) {
 });
 
 document.querySelector(".email-btn").addEventListener("click", function(event) {
+    // make sure the page doesn't refresh
+    event.preventDefault();
     // hide the email box
     document.querySelector(".email").parentElement.style.display = "none";
     // show the email submitted message
