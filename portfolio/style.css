@@ -247,6 +247,12 @@ section 1, except the GitHub image is in between section 2 and 3. */
     color: var(--text-color);
 }
 
+.input-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
 .contact-form input {
     padding: 10px 15px;
     border: 2px solid var(--link-color);
@@ -256,13 +262,36 @@ section 1, except the GitHub image is in between section 2 and 3. */
     color: var(--text-color);
     outline: none;
     transition: 0.3s;
+    width: 100%;
 }
 
 .contact-form input:focus {
     border-color: var(--text-color);
 }
 
-.liveOutput {
+.submit-btn {
+    padding: 10px 15px;
+    background-color: var(--link-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+.name-output {
+    font-size: 14px;
+    color: var(--link-color);
+    min-height: 20px;
+}
+
+.email-output {
     font-size: 14px;
     color: var(--link-color);
     min-height: 20px;
